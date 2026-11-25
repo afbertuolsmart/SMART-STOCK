@@ -245,6 +245,7 @@ function buildDescricaoPorProduto(rawData) {
   const fontes = [
     getArray(rawData, 'estoqueLocal'),
     getArray(rawData, 'estoqueParaguai'),
+    getArray(rawData, 'estoqueEadi'),
     getArray(rawData, 'compras'),
     getArray(rawData, 'consumo'),
     getArray(rawData, 'vendas'),
@@ -830,17 +831,23 @@ getArray(data, 'comprasParaguai').forEach(r => {
 
   return Object.values(families).map(fam => {
     fam.origem = fam.origens.size === 1 ? [...fam.origens][0] : 'Misto';
+    // Estoque físico por local + compras em aberto + ordens de produção.
+    // Não somar fam.estoque novamente: ele já representa a soma dos locais.
     fam.estoqueGeral =
-  fam.estoque +
-  fam.compras +
-  fam.comprasParaguai +
-  fam.op;
+      (Number(fam.estoqueLocal) || 0) +
+      (Number(fam.estoqueParaguai) || 0) +
+      (Number(fam.estoqueEadi) || 0) +
+      (Number(fam.compras) || 0) +
+      (Number(fam.comprasParaguai) || 0) +
+      (Number(fam.op) || 0);
     fam.cores = Object.values(fam.cores).map(cor => {
       cor.estoqueGeral =
-  cor.estoque +
-  cor.compras +
-  cor.comprasParaguai +
-  cor.op;
+        (Number(cor.estoqueLocal) || 0) +
+        (Number(cor.estoqueParaguai) || 0) +
+        (Number(cor.estoqueEadi) || 0) +
+        (Number(cor.compras) || 0) +
+        (Number(cor.comprasParaguai) || 0) +
+        (Number(cor.op) || 0);
      cor.itens = Object.values(cor.itens).filter(i =>
   i.estoque ||
   i.compras ||
