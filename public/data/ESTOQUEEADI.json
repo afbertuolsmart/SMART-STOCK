@@ -1,1 +1,98 @@
-[{"produto":30107,"desc. completa":"BASE SHANGHAI PU 1.05 - CANELA (COM MARCA D'AGUA)","qtd_fisica":13438,"grupo":13,"familia":"BASE SHANGHAI"},{"produto":30108,"desc. completa":"BASE SHANGHAI PU 1.05 - CARAMELO (COM MARCA D'AGUA)","qtd_fisica":8083,"grupo":13,"familia":"BASE SHANGHAI"},{"produto":30109,"desc. completa":"BASE SHANGHAI PU 1.05 - CASTOR (COM MARCA D'AGUA)","qtd_fisica":5434,"grupo":13,"familia":"BASE SHANGHAI"},{"produto":30110,"desc. completa":"BASE SHANGHAI PU 1.05 - CONHAQUE (COM MARCA D'AGUA)","qtd_fisica":3785,"grupo":13,"familia":"BASE SHANGHAI"},{"produto":30103,"desc. completa":"BASE SHANGHAI PU 1.05 - LAGOA AZUL (COM MARCA D'AGUA)","qtd_fisica":200,"grupo":13,"familia":"BASE SHANGHAI"},{"produto":30104,"desc. completa":"BASE SHANGHAI PU 1.05 - OFF WHITE 526 (COM MARCA D'AGUA)","qtd_fisica":17901,"grupo":13,"familia":"BASE SHANGHAI"},{"produto":30105,"desc. completa":"BASE SHANGHAI PU 1.05 - ROSE (COM MARCA D'AGUA)","qtd_fisica":1510,"grupo":13,"familia":"BASE SHANGHAI"},{"produto":30106,"desc. completa":"BASE SHANGHAI PU 1.05 - CAMEL 1165 (COM MARCA D'AGUA)","qtd_fisica":8172,"grupo":13,"familia":"BASE SHANGHAI"},{"produto":30099,"desc. completa":"BASE SHANGHAI PU 1.05 - BEGE 626 (COM MARCA D'AGUA)","qtd_fisica":300,"grupo":13,"familia":"BASE SHANGHAI"},{"produto":30107,"desc. completa":"BASE SHANGHAI PU 1.05 - CANELA (COM MARCA D'AGUA)","qtd_fisica":2250,"grupo":13,"familia":"BASE SHANGHAI"},{"produto":30099,"desc. completa":"BASE SHANGHAI PU 1.05 - BEGE 626 (COM MARCA D'AGUA)","qtd_fisica":12627,"grupo":13,"familia":"BASE SHANGHAI"},{"produto":30114,"desc. completa":"BASE SHANGHAI PU 1.05 - OCRE (COM MARCA D'AGUA)","qtd_fisica":13485,"grupo":13,"familia":"BASE SHANGHAI"}]
+[
+  {
+    "produto": "30107",
+    "desc_completa": "BASE SHANGHAI PU 1.05 - CANELA (COM MARCA D'AGUA)",
+    "qtd_fisica": 13438,
+    "grupo": "13",
+    "familia": "BASE SHANGHAI",
+    "local_estoque": "EADI"
+  },
+  {
+    "produto": "30108",
+    "desc_completa": "BASE SHANGHAI PU 1.05 - CARAMELO (COM MARCA D'AGUA)",
+    "qtd_fisica": 8083,
+    "grupo": "13",
+    "familia": "BASE SHANGHAI",
+    "local_estoque": "EADI"
+  },
+  {
+    "produto": "30109",
+    "desc_completa": "BASE SHANGHAI PU 1.05 - CASTOR (COM MARCA D'AGUA)",
+    "qtd_fisica": 5434,
+    "grupo": "13",
+    "familia": "BASE SHANGHAI",
+    "local_estoque": "EADI"
+  },
+  {
+    "produto": "30110",
+    "desc_completa": "BASE SHANGHAI PU 1.05 - CONHAQUE (COM MARCA D'AGUA)",
+    "qtd_fisica": 3785,
+    "grupo": "13",
+    "familia": "BASE SHANGHAI",
+    "local_estoque": "EADI"
+  },
+  {
+    "produto": "30103",
+    "desc_completa": "BASE SHANGHAI PU 1.05 - LAGOA AZUL (COM MARCA D'AGUA)",
+    "qtd_fisica": 200,
+    "grupo": "13",
+    "familia": "BASE SHANGHAI",
+    "local_estoque": "EADI"
+  },
+  {
+    "produto": "30104",
+    "desc_completa": "BASE SHANGHAI PU 1.05 - OFF WHITE 526 (COM MARCA D'AGUA)",
+    "qtd_fisica": 17901,
+    "grupo": "13",
+    "familia": "BASE SHANGHAI",
+    "local_estoque": "EADI"
+  },
+  {
+    "produto": "30105",
+    "desc_completa": "BASE SHANGHAI PU 1.05 - ROSE (COM MARCA D'AGUA)",
+    "qtd_fisica": 1510,
+    "grupo": "13",
+    "familia": "BASE SHANGHAI",
+    "local_estoque": "EADI"
+  },
+  {
+    "produto": "30106",
+    "desc_completa": "BASE SHANGHAI PU 1.05 - CAMEL 1165 (COM MARCA D'AGUA)",
+    "qtd_fisica": 8172,
+    "grupo": "13",
+    "familia": "BASE SHANGHAI",
+    "local_estoque": "EADI"
+  },
+  {
+    "produto": "30099",
+    "desc_completa": "BASE SHANGHAI PU 1.05 - BEGE 626 (COM MARCA D'AGUA)",
+    "qtd_fisica": 300,
+    "grupo": "13",
+    "familia": "BASE SHANGHAI",
+    "local_estoque": "EADI"
+  },
+  {
+    "produto": "30107",
+    "desc_completa": "BASE SHANGHAI PU 1.05 - CANELA (COM MARCA D'AGUA)",
+    "qtd_fisica": 2250,
+    "grupo": "13",
+    "familia": "BASE SHANGHAI",
+    "local_estoque": "EADI"
+  },
+  {
+    "produto": "30099",
+    "desc_completa": "BASE SHANGHAI PU 1.05 - BEGE 626 (COM MARCA D'AGUA)",
+    "qtd_fisica": 12627,
+    "grupo": "13",
+    "familia": "BASE SHANGHAI",
+    "local_estoque": "EADI"
+  },
+  {
+    "produto": "30114",
+    "desc_completa": "BASE SHANGHAI PU 1.05 - OCRE (COM MARCA D'AGUA)",
+    "qtd_fisica": 13485,
+    "grupo": "13",
+    "familia": "BASE SHANGHAI",
+    "local_estoque": "EADI"
+  }
+]
